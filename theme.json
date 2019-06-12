@@ -1,0 +1,8 @@
+{
+  "id": "nodebb-theme-adflex",
+  "name": "AdFlex",
+  "description": "Base on persona theme for NodeBB. AdFlex Theme",
+  "url": "https://github.com/lephuhai/nodebb-theme-adflex",
+  "screenshot": "screenshot.png",
+  "baseTheme": "nodebb-theme-persona"
+}
