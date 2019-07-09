@@ -17,14 +17,14 @@
         <li>
             <a component="account/flag" href="#">[[user:flag-profile]]</a>
         </li>
-        <li>
-            <a component="account/block" href="#"><!-- IF !../isBlocked -->[[user:block_user]]<!-- ELSE -->[[user:unblock_user]]<!-- END --></a>
-        </li>
+        <!-- IF isAdmin -->
         <li class="divider"></li>
+        <!-- ENDIF isAdmin -->
+
         <!-- ENDIF !banned -->
         <!-- ENDIF !isSelf -->
         <!-- ENDIF loggedIn -->
-        
+
         <!-- IF showHidden -->
         <li><a href="{config.relative_path}/user/{userslug}/edit">[[user:edit]]</a></li>
         <li><a href="{config.relative_path}/user/{userslug}/settings">[[user:settings]]</a></li>
